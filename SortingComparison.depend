@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1664221184 source:c:\users\nagan\documents\fall 22\6114 dsa\project 1 dsa\sortingcomparison\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	<chrono>
+	"sortingFunctions.h"
+
+1664221302 c:\users\nagan\documents\fall 22\6114 dsa\project 1 dsa\sortingcomparison\sortingfunctions.h
+
+1664221335 source:c:\users\nagan\documents\fall 22\6114 dsa\project 1 dsa\sortingcomparison\sortingfunctions.cpp
+	<iostream>
+	<bits/stdc++.h>
+	"sortingFunctions.h"
+
