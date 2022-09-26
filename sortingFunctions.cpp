@@ -6,15 +6,15 @@ using namespace std;
 
 // Insertion Sort
 void insertionSort (vector<int> inputArray){
-    int n = inputArray.size(), value, hole;
+    int n = inputArray.size(), value, current;
     for(int i=0; i<n; i++){
         value = inputArray[i];
-        hole = i;
-        while(hole>0 && inputArray[hole-1]>value){
-            inputArray[hole] = inputArray[hole-1];
-            hole = hole -1;
+        current = i;
+        while(current>0 && inputArray[current-1]>value){
+            inputArray[current] = inputArray[current-1];
+            current--;
         }
-        inputArray[hole] = value;
+        inputArray[current] = value;
     }
 }
 
